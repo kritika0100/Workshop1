@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="icon" href="images/favicon.ico">
+    <title>Kritika Gautam Portfolio</title>
+    <meta name="description" content="Portfolio of Kritika Gautam - Cyber Security student, projects, and contact information">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
-
 <body>
 
     <header>
@@ -24,45 +24,48 @@
 
     <main>
 
+        <!-- ABOUT SECTION -->
         <section id="about" class="section">
             <h2>About Me</h2>
             <img src="Image/pic1.jpeg" alt="Profile Photo" class="profile-img">
-
             <p>
                 Hi! I am Kritika Gautam, currently studying Cyber Security at Herald College Kathmandu.
-                I enjoy exploring technology, building creative projects, and learning new skills. I'm passionate about solving problems, understanding how systems work, and staying updated with the latest trends in cyber security. I love working on practical projects, experimenting with new tools, and continuously improving my technical abilities. Outside of academics, I enjoy designing, coding, and finding new ways to express my creativity through tech.
+                I enjoy exploring technology, building creative projects, and learning new skills.
+                I'm passionate about solving problems, understanding systems, and staying updated with the latest trends in cyber security.
             </p>
         </section>
 
+        <!-- PROJECTS SECTION -->
         <section id="projects" class="section">
             <h2>My Projects</h2>
 
             <div class="project-card">
-                <img src="Image/pic2.png" alt="Project Screenshot">
+                <img src="Image/pic2.png" alt="Portfolio Website Screenshot">
                 <h3>Portfolio Website</h3>
-                <p>This is my first portfolio website made using HTML and CSS.</p>
+                <p>My first portfolio website made using HTML and CSS.</p>
             </div>
 
             <div class="project-card">
-                <img src="Image/pic3.png" alt="Dummy Project">
+                <img src="Image/pic3.png" alt="Weather App Screenshot">
                 <h3>Weather App</h3>
                 <p>A weather application using OpenWeatherMap API and JavaScript.</p>
             </div>
 
         </section>
 
+        <!-- CONTACT SECTION -->
         <section id="contact" class="section">
             <h2>Contact Me</h2>
 
             <form id="contactForm">
                 <label for="name">Full Name:</label>
-                <input id="name" type="text" placeholder="Enter Name" >
+                <input id="name" type="text" placeholder="Enter Name" required>
 
                 <label for="email">Email:</label>
-                <input id="email" type="email" placeholder="Enter Email" >
+                <input id="email" type="email" placeholder="Enter Email" required>
 
                 <label for="message">Message:</label>
-                <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+                <textarea id="message" rows="4" placeholder="Write your message" required></textarea>
 
                 <button id="submit" type="submit">Submit</button>
             </form>
@@ -74,9 +77,9 @@
     <footer>
         <p>© 2025 Kritika Gautam</p>
         <div class="socials">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
     </footer>
 
